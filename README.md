@@ -4,7 +4,6 @@
 A web-based Student Management System built using Django.  
 This application allows users to manage student records with CRUD operations and search functionality.
 
----
 
 ## 🚀 Features
 
@@ -15,7 +14,7 @@ This application allows users to manage student records with CRUD operations and
 - Search Student by Name
 - View Top Performer
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -25,26 +24,27 @@ This application allows users to manage student records with CRUD operations and
 - HTML
 - CSS
 
----
+
 
 ## 📂 Project Structure
 
 
 studentwebsite/
-│
-├── manage.py
-├── studentwebsite/
-├── students/
-│ ├── models.py
-│ ├── views.py
-│ ├── urls.py
-│ ├── templates/
-│ └── static/
+- │
+- ├── manage.py
+- ├── studentwebsite/
+- ├── students/
+- │ ├── models.py
+- │ ├── views.py
+- │ ├── urls.py
+- │ ├── templates/
+- │ └── static/
 
 
----
 
 ## ⚙️ Installation & Setup
+
+--- 
 
 ### 1. Clone the repository
 
@@ -92,6 +92,7 @@ http://127.0.0.1:8000/
 
 ---
 
+
 ## 🔍 How It Works
 
 - Users can add and manage student records through web forms
@@ -99,7 +100,7 @@ http://127.0.0.1:8000/
 - Search feature filters students by name
 - Topper page shows highest scoring student
 
----
+
 
 ## 📸 Screenshots (Optional but Recommended)
 
@@ -118,16 +119,16 @@ http://127.0.0.1:8000/
 ## 📸 Final Output
 ![Final Output](images/Final.png)
 
----
+
 
 ## 📌 Future Improvements
 
 - User Authentication (Login/Register)
-- Advanced Search Filters
+- Advanced Search Filte
 - Dashboard with Charts
 - Responsive UI Design
 
----
+
 
 ## 👨‍💻 Author
 
