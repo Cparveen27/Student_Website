@@ -39,6 +39,7 @@ studentwebsite/
 - │ ├── urls.py
 - │ ├── templates/
 - │ └── static/
+- ├── images/
 
 
 
