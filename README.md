@@ -44,7 +44,7 @@ studentwebsite/
 
 ## ⚙️ Installation & Setup
 
---- 
+
 
 ### 1. Clone the repository
 
@@ -90,7 +90,6 @@ python manage.py runserver
 http://127.0.0.1:8000/
 
 
----
 
 
 ## 🔍 How It Works
