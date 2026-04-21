@@ -1,0 +1,37 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<div class="container">
+    <h2>Student Management System</h2>
+    <form method="GET">
+    <input type="text" name="q" placeholder="Search by name" value="{{ request.GET.q }}">
+    <button type="submit">Search</button>
+    <a href="/" class="back-link">Clear</a>
+</form>
+
+    <a href="/add/">Add Student</a>
+    <a href="/topper/">View Topper</a>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+            <th>Marks</th>
+            <th>Actions</th>
+        </tr>
+
+        {% for s in students %}
+        <tr>
+            <td>{{ s.name }}</td>
+            <td>{{ s.age }}</td>
+            <td>{{ s.course }}</td>
+            <td>{{ s.marks }}</td>
+            <td>
+                <a href="/update/{{ s.id }}">Edit</a>
+                <a href="/delete/{{ s.id }}">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>

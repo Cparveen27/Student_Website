@@ -1,0 +1,19 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<div class="container">
+    <h2>Add Student</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="name" placeholder="Name"><br>
+        <input type="number" name="age" placeholder="Age"><br>
+        <input type="text" name="gender" placeholder="Gender"><br>
+        <input type="text" name="course" placeholder="Course"><br>
+        <input type="number" name="marks" placeholder="Marks"><br>
+        <button type="submit">Add</button>
+    </form>
+
+    <br>
+    <a href="/" class="back-link">Back</a>
+</div>

@@ -1,0 +1,15 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<div class="container">
+    <h2>Update Marks</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        <input type="number" name="marks" value="{{ student.marks }}">
+        <button type="submit">Update</button>
+    </form>
+
+    <br>
+    <a href="/" class="back-link">Back</a>
+</div>

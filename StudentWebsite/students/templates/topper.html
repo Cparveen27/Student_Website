@@ -1,0 +1,17 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<div class="container">
+    <h2>Top Performer</h2>
+
+    {% if student %}
+        <p><strong>Name:</strong> {{ student.name }}</p>
+        <p><strong>Course:</strong> {{ student.course }}</p>
+        <p><strong>Marks:</strong> {{ student.marks }}</p>
+    {% else %}
+        <p>No data available</p>
+    {% endif %}
+
+    <br>
+    <a href="/" class="back-link">Back</a>
+</div>
