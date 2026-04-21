@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-hmqjyc4nmv#se@lz=+=#q%6y@1p0#&&0@li506m&)^x+%79@w_'
+SECRET_KEY = 'something-long'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'student_db',
         'USER': 'root',
-        'PASSWORD': 'Cparveen$123',
+        'PASSWORD': 'YourPassword',
         'HOST': 'localhost',
         'PORT': '3306'
     }
