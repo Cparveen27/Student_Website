@@ -112,19 +112,19 @@ http://127.0.0.1:8000/
 ## 📸 Screenshots (Optional but Recommended)
 
 ### 🏠 Home Page
-![Home Page](images/Home.png)
+![Home Page](image/Home.png)
 
 ### ➕ Add Student
-![Add Student](images/Add.png)
+![Add Student](image/Add.png)
 
 ### ✏️ Update Student
-![Update](images/update.png)
+![Update](image/update.png)
 
 ### 🏆 Topper Page
-![Topper](images/View_Toppers.png)
+![Topper](image/View_Toppers.png)
 
 ## 📸 Final Output
-![Final Output](images/Final.png)
+![Final Output](image/Final.png)
 
 
 
